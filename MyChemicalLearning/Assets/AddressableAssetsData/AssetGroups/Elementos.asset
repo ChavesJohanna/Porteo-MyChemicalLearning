@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Elementos
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Elementos
+  m_GUID: 9703af6e6ad08ff4b965fc237dd83d7f
+  m_SerializeEntries:
+  - m_GUID: 10f3f0f52868ec349a95d952cfe5411e
+    m_Address: Assets/Prefabs/Elementos/Nitrogeno.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nitrogeno
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 293b30c2ef5ef3949afd8eb569132024
+    m_Address: Assets/Prefabs/Elementos/Agua.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Agua
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 515e2c705fef32147b015d93809c980e
+    m_Address: Assets/Prefabs/Elementos/Helio.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dc87d76c62e7db4f9ed21b349d68c15
+    m_Address: Assets/Prefabs/Elementos/OxAlum.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OxAlum
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a42a6ca262bc1640b154d246e42556f
+    m_Address: Assets/Prefabs/Elementos/Acido.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Acido
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7cf388bc2fc8304dbc0354bfb5ee72d
+    m_Address: Assets/Prefabs/Elementos/Sal.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sal
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2f0aff87623cc154f920674dcada356e, type: 2}
+  m_SchemaSet:
+    m_Schemas: []
