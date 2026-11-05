@@ -16971,7 +16971,7 @@ GameObject:
   - component: {fileID: 1622391370}
   - component: {fileID: 1622391369}
   - component: {fileID: 1622391368}
-  m_Layer: 31
+  m_Layer: 10
   m_Name: Piso/Plataformas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
