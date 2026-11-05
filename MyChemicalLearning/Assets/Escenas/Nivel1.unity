@@ -114158,10 +114158,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUDJugador
       objectReference: {fileID: 0}
-    - target: {fileID: 353859072347130516, guid: a9074482e99f9394d8b9563e11697c7b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2455863852891500807, guid: a9074482e99f9394d8b9563e11697c7b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -114176,14 +114172,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2455863852891500807, guid: a9074482e99f9394d8b9563e11697c7b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5275313826701391896, guid: a9074482e99f9394d8b9563e11697c7b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5312495617175708235, guid: a9074482e99f9394d8b9563e11697c7b, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5661469339526245020, guid: a9074482e99f9394d8b9563e11697c7b, type: 3}
