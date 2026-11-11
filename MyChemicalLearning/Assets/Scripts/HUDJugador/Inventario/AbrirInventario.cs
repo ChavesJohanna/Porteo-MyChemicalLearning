@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 
 public class AbrirInventario : MonoBehaviour, IPointerDownHandler //el script se encuntra en el boton Abrir dentro del objeto Inventario
 {
@@ -20,10 +21,23 @@ public class AbrirInventario : MonoBehaviour, IPointerDownHandler //el script se
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        AbrirInve();
+    }
+
+    private void Update()
+    {
+        if (Keyboard.current.tabKey.wasPressedThisFrame) //Abre al presionar el TAB
+        {
+            AbrirInve();
+        }
+    }
+
+
+    private void AbrirInve()
+    {
         inveAbierto = !inveAbierto; //osila entre true y false al tocar el boton
 
         panel.SetActive(inveAbierto);
         inventario.PanelAbierto(inveAbierto); //le avisa al inventario que el panel asta abierto o cerado 
     }
-
 }
