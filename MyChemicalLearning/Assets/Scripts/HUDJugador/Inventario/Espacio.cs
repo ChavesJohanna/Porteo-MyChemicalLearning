@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class Espacio : MonoBehaviour, IPointerDownHandler, IBotonInventario //se encuentra en los botones con el mismo nombre

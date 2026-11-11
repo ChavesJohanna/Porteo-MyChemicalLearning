@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class Atajo : MonoBehaviour, IPointerDownHandler, IBotonInventario //se ecuentra en los botones con el miesmo nombre
@@ -43,6 +44,21 @@ public class Atajo : MonoBehaviour, IPointerDownHandler, IBotonInventario //se e
 
         
         GuardadoAtajos.Instance.GuardarSprite(indice, imagenElemento.sprite); //guardamos en el single
+    }
+
+
+    private void Update()
+    {
+        if (indice == 0 && Keyboard.current.digit1Key.wasPressedThisFrame ||
+            indice == 1 && Keyboard.current.digit2Key.wasPressedThisFrame ||
+            indice == 2 && Keyboard.current.digit3Key.wasPressedThisFrame) //se selecciona el boton correcto segun su indice
+        {
+            controlador.Seleccionar(this);
+
+            inventario.IntercambiarSprite(this);
+
+            GuardadoAtajos.Instance.GuardarSprite(indice, imagenElemento.sprite);
+        }
     }
 
     public void Activar()
