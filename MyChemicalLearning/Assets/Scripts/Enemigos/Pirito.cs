@@ -14,7 +14,7 @@ public class Pirito : EnemigoMovil
     {
         if (otro.gameObject.CompareTag("Agua"))
         {
-            RecibirDaño(5f, "Agua");
+            RecibirDano(5f, "Agua");
         }
     }
 }

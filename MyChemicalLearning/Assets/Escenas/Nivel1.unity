@@ -2057,6 +2057,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3465758338894983035, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
+      propertyPath: capaSuelo.m_Bits
+      value: 1088
+      objectReference: {fileID: 0}
     - target: {fileID: 5789016886847776676, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
       propertyPath: m_Name
       value: Pirito_5
@@ -65458,6 +65462,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3465758338894983035, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
+      propertyPath: capaSuelo.m_Bits
+      value: 1088
+      objectReference: {fileID: 0}
     - target: {fileID: 5789016886847776676, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
       propertyPath: m_Name
       value: Pirito_8
@@ -65827,6 +65835,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3465758338894983035, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
+      propertyPath: capaSuelo.m_Bits
+      value: 1088
+      objectReference: {fileID: 0}
     - target: {fileID: 5789016886847776676, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
       propertyPath: m_Name
       value: Pirito_1
@@ -72895,6 +72907,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3465758338894983035, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
+      propertyPath: capaSuelo.m_Bits
+      value: 1088
+      objectReference: {fileID: 0}
     - target: {fileID: 5789016886847776676, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
       propertyPath: m_Name
       value: Pirito_6
@@ -74672,6 +74688,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3465758338894983035, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
+      propertyPath: capaSuelo.m_Bits
+      value: 1088
+      objectReference: {fileID: 0}
     - target: {fileID: 5789016886847776676, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
       propertyPath: m_Name
       value: Pirito_4
@@ -98955,6 +98975,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3465758338894983035, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
+      propertyPath: capaSuelo.m_Bits
+      value: 1088
+      objectReference: {fileID: 0}
     - target: {fileID: 5789016886847776676, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
       propertyPath: m_Name
       value: Pirito_7
@@ -101577,6 +101601,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3465758338894983035, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
+      propertyPath: capaSuelo.m_Bits
+      value: 1088
+      objectReference: {fileID: 0}
     - target: {fileID: 5789016886847776676, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
       propertyPath: m_Name
       value: Pirito_3
@@ -102843,6 +102871,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3465758338894983035, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
+      propertyPath: capaSuelo.m_Bits
+      value: 1088
+      objectReference: {fileID: 0}
     - target: {fileID: 5789016886847776676, guid: f89c6098228ea0e4c8d949b58ae3775f, type: 3}
       propertyPath: m_Name
       value: Pirito_2

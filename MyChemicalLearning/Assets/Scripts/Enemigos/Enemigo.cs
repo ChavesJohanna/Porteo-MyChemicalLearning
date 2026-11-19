@@ -13,18 +13,29 @@ public class Enemigo : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public virtual void RecibirDaño(float daño, string elemento)
+    public virtual void RecibirDano(float dano, string elemento)
     {
         if (elemento == debilidad)
         {
-            daño *= 2f;
+            dano *= 2f;
         }
 
-        vida -= daño;
+        vida -= dano;
 
         if (vida <= 0)
         {
             Morir();
+        }
+    }
+
+    protected void DanarJugador()
+    {
+        BarraVida barraVida = GameObject.Find("BarraVida")?.GetComponent<BarraVida>();
+
+        if (barraVida != null)
+        {
+            //barraVida.Disminuir(daï¿½oJugador);
+            barraVida.Disminuir();
         }
     }
 

@@ -14,7 +14,7 @@ public class Oxidee : EnemigoMovil
     {
         if (otro.gameObject.CompareTag("Acido"))
         {
-            RecibirDaño(5f, "Acido");
+            RecibirDano(5f, "Acido");
         }
     }
 }
