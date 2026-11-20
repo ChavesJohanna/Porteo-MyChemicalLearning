@@ -14,6 +14,7 @@ TagManager:
   - Agua
   - Acido
   - BloqueNitrogeno
+  - Zapper
   layers:
   - Default
   - TransparentFX
@@ -26,7 +27,7 @@ TagManager:
   - Jugador
   - Abismo
   - Piso
-  - 
+  - Tutorial
   - 
   - 
   - 
