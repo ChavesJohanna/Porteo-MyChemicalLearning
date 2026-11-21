@@ -63,7 +63,7 @@ Los siguientes controles corresponden a la propuesta de porteo a Windows.
 | A y D | Movimiento lateral |
 | Espacio | Saltar |
 | TAB | Abrir inventario |
-| J | Disparar |
+| Ctrl | Disparar |
 | E | Interactuar |
 | 1, 2 y 3 | Seleccionar elementos mediante los slots |
 
