@@ -50,18 +50,16 @@ public class PoolElementos : MonoBehaviour
 
     private void CrearElemento(string nombre)
     {
-        Addressables.InstantiateAsync(nombre).Completed += (resultado) =>
-        {
-            if (resultado.Status != AsyncOperationStatus.Succeeded)
-                return;
+        GameObject prefab = Resources.Load<GameObject>("Elementos/" + nombre);
 
-            GameObject elemento = resultado.Result;
+        if (prefab == null)
+            return;
 
-            elemento.transform.SetParent(transform);
-            elemento.SetActive(false);
+        GameObject elemento = Instantiate(prefab, transform);
 
-            pool[nombre].Enqueue(elemento);
-        };
+        elemento.SetActive(false);
+
+        pool[nombre].Enqueue(elemento);
     }
 
     public void ActivarElemento(string nombre)
